@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import pet.store.controller.model.PetStoreData;
-import pet.store.entity.PetStore;
 import pet.store.service.PetStoreService;
 
 @RestController
@@ -17,10 +16,7 @@ public class PetStoreController {
 
     @PostMapping("/pet_store")
     @ResponseStatus(code = HttpStatus.CREATED)
-    public PetStoreData insertPetStore(@PathVariable Long petStoreId, @RequestBody PetStoreData petStoreData) {
-
-        petStoreData.setPetStoreId(petStoreId);
-
+    public PetStoreData insertPetStore(@RequestBody PetStoreData petStoreData) {
         log.info("Creating store with ID={}", petStoreData);
 
         return petStoreService.savePetStore(petStoreData);

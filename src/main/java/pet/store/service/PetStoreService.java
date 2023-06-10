@@ -2,6 +2,7 @@ package pet.store.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import pet.store.controller.model.PetStoreData;
 import pet.store.dao.PetStoreDao;
 import pet.store.entity.PetStore;
@@ -14,11 +15,10 @@ public class PetStoreService {
     @Autowired
     private PetStoreDao petStoreDao;
 
-
-
-
-
+    @Transactional(readOnly = false)
     public PetStoreData savePetStore(PetStoreData petStoreData) {
+//        Long petStoreId = petStoreData.getPetStoreId();
+
     PetStore petStore = findOrCreatePetStore(petStoreData.getPetStoreId());
 
     copyPetStoreFields(petStore, petStoreData);
