@@ -16,13 +16,11 @@ public class PetStore {
     private Long petStoreId;
     private String petStoreName;
     private String petStoreAddress;
-    private String city;
-    private String state;
-    private Long zip;
-    private Long phone;
+    private String petStoreCity;
+    private String petStoreState;
+    private Long petStoreZip;
+    private Long petStorePhone;
 
-    @EqualsAndHashCode.Exclude
-    @ToString.Exclude
     @ManyToMany(cascade = CascadeType.PERSIST)
     @JoinTable(name = "pet_store_customer",
             joinColumns = @JoinColumn(name = "pet_store_id"),
