@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b7032b-5189-402f-8558-e928168c7d69" name="Changes" comment="git commit - m &quot;WIP&quot;">
+    <list default="true" id="f3b7032b-5189-402f-8558-e928168c7d69" name="Changes" comment="git commit - m &quot;WEEk 14&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pet/store/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pet/store/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/create-employee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/create-pet-store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/controller/PetStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/controller/PetStoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/controller/model/PetStoreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/controller/model/PetStoreData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/service/PetStoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/service/PetStoreService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,17 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chant\Downloads\pet-store\src\test\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pet.store" />
     </key>
@@ -79,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686422424297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git commit - m &quot;WEEk 14&quot;">
+      <created>1686423900558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686423900558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;WIP&quot;" />
     <MESSAGE value="git commit - m &quot;WIP&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit - m &quot;WIP&quot;" />
+    <MESSAGE value="git commit - m &quot;WEEk 14&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit - m &quot;WEEk 14&quot;" />
   </component>
 </project>
