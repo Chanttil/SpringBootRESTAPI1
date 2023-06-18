@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b7032b-5189-402f-8558-e928168c7d69" name="Changes" comment="git commit - m &quot;WEEk 14&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pet/store/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pet/store/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-employee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-pet-store.json" afterDir="false" />
+    <list default="true" id="f3b7032b-5189-402f-8558-e928168c7d69" name="Changes" comment="git commit - m &quot;WEEk 15 WIP&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/controller/PetStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/controller/PetStoreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/controller/model/PetStoreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/controller/model/PetStoreData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pet/store/service/PetStoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pet/store/service/PetStoreService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686423900558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git commit - m &quot;WEEk 15 WIP&quot;">
+      <created>1687039973025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687039973025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +117,7 @@
     <MESSAGE value="&quot;WIP&quot;" />
     <MESSAGE value="git commit - m &quot;WIP&quot;" />
     <MESSAGE value="git commit - m &quot;WEEk 14&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit - m &quot;WEEk 14&quot;" />
+    <MESSAGE value="git commit - m &quot;WEEk 15 WIP&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit - m &quot;WEEk 15 WIP&quot;" />
   </component>
 </project>

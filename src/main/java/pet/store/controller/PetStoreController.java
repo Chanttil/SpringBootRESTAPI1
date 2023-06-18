@@ -1,14 +1,17 @@
 package pet.store.controller;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import pet.store.controller.model.PetStoreData;
-import pet.store.entity.Customer;
-import pet.store.service.PetStoreService;
 
-import java.util.List;
+import lombok.extern.slf4j.Slf4j;
+import pet.store.controller.model.PetStoreData;
+import pet.store.controller.model.PetStoreData.PetStoreCustomer;
+import pet.store.controller.model.PetStoreData.PetStoreEmployee;
+import pet.store.service.PetStoreService;
 
 @RestController
 @RequestMapping("/pet_store")
@@ -31,15 +34,15 @@ public class PetStoreController {
         return petStoreService.savePetStore(petStoreData);
     }
 
-    @PostMapping("/{petStoreId}/employee")
+    @PostMapping("/pet_store/{petStoreId}/employee")
     @ResponseStatus(code = HttpStatus.CREATED)
-    public PetStoreData.PetStoreEmployee insertEmployee(@PathVariable Long petStoreId,
-                                                        @RequestBody PetStoreData.PetStoreEmployee petStoreEmployee) {
+    public PetStoreEmployee insertEmployee(@PathVariable Long petStoreId, @RequestBody PetStoreEmployee petStoreEmployee) {
 
-        log.info("Creating Employee {}", petStoreEmployee);
+        log.info("Creating pet store employee {}", petStoreEmployee);
 
-        return petStoreService.saveEmployee(petStoreId, petStoreEmployee);
+        PetStoreEmployee employee = petStoreService.saveEmployee(petStoreId, petStoreEmployee);
 
+        return employee;
     }
 
 //    @PostMapping("/pet_store/{petStoreId}/customer")
@@ -51,9 +54,14 @@ public class PetStoreController {
 //
 //        return petStoreService.saveCustomer(petStoreId, petStoreCustomer);
 //}
-//    @GetMapping("/pet_store")
-//    public List<PetStoreData> getAllPetStores() {
-//        return petStoreService.retrieveAllPetStores();
+    @GetMapping
+    public List<PetStoreData> getAllPetStores() {
+        return petStoreService.retrieveAllPetStores();
+    }
+
+//    @GetMapping("/{petStoreId}")
+//    public PetStoreData getPetStoreById(@PathVariable("petStoreId") Long petStoreId) {
+//        return petStoreService.retrievePetStoreById(petStoreId);
 //    }
-//
+
 }
